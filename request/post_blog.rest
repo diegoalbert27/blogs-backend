@@ -1,0 +1,19 @@
+POST http://localhost:3001/api/v1/blog
+Content-Type: application/json
+
+{
+    "title": "Sindrome del Estocolmo",
+    "author": "Wikipedia",
+    "url": "https://es.wikipedia.org/wiki/S%C3%ADndrome_de_Estocolmo",
+    "likes": 5
+}
+###
+POST http://localhost:3001/api/v1/blog
+Content-Type: application/json
+
+{
+    "title": "El Canserbero",
+    "author": "Wikipedia",
+    "url": "https://es.wikipedia.org/wiki/Canserbero",
+    "likes": 5
+}
